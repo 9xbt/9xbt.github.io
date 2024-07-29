@@ -1,5 +1,9 @@
+@font-face {
+	font-family: 'SGI';
+    src: url("assets/SGI-Bold.ttf") format(truetype);
+    font-weight: bold;
+}
+
 body {
-    font-family: 'Source Code Pro';
-    background-color: #282A36;
-    color: white;
+    font-family: 'SGI';
 }
