@@ -2,27 +2,29 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>homepage - mobren.net</title>
-        <link href='style.css' rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Homepage - www.mobren.net</title>
     </head>
-
-    <body style="overflow: hidden;">
-        <header style="background-color:black; height:42px">
-            <div>
-                <img src="assets/logo.webp">
-                <h2 style="display:inline-block; position:relative; top:-11px; color:white;">Mobren.net</h2>
-                <h3 style="display:inline-block; position:relative; top:-11px; left:5px;"><a style="color:white; text-decoration: none;" href="index.html">home</a></h3>
-                <h3 style="display:inline-block; position:relative; top:-11px; left:10px;"><a style="color:white; text-decoration: none;" href="https://github.com/9xbt?tab=repositories">projects</a></h3>
-                <h3 style="display:inline-block; position:relative; top:-11px; left:15px;"><a style="color:white; text-decoration: none;" href="tools.html">tools</a></h3>
-                <h3 style="display:inline-block; position:relative; top:-11px; left:20px;"><a style="color:white; text-decoration: none;" href="https://github.com/9xbt/9xbt.github.io">github</a></h3>
-            </div>
-        </header>
-
-        <div style="position:relative; left: 12px">
-            <h2 style="position:relative; left:-2px">News</h2>
-            <p>7/29/2024: rewrote website again</p>
-            <p>8/12/2024: added £p to £sd converter</p>
-            <p>10/25/2024: website expansions</p>
+    <body>
+        <div class="navbar">
+            <h2 style="margin-left: 63px; margin-top: 12px">mobren.net</h2>
+            <ul class="navbar_list">
+                <li><a href="index.html?disable_animations" style="background-image: url(sel.png)"><span id="navbar_text">News</span></a></li>
+                <li><a href="projects.html?disable_animations"><span id="navbar_text">Projects</span></a></li>
+            </ul>
         </div>
+        <div class="settings">
+            <h2>News</h2>
+            <br>
+            <p>11/30/2024: rewrote website again and removed £p to £sd converter</p>
+            <br>
+            <p>10/25/2024: website expansions</p>
+            <br>
+            <p>8/12/2024: added £p to £sd converter</p>
+            <br>
+            <p>7/29/2024: restored old website look</p>
+        </div>
+
+        <script src="sidebar.js"></script>
     </body>
 </html>
