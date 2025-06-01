@@ -11,6 +11,7 @@
             <ul class="navbar_list">
                 <li><a href="index.html?disable_animations"><span id="navbar_text">News</span></a></li>
                 <li><a href="projects.html?disable_animations" style="background-image: url(sel.png)"><span id="navbar_text">Projects</span></a></li>
+                <li><a href="https://github.com/9xbt"><span id="navbar_text">GitHub</span></a></li>
             </ul>
         </div>
         <div class="changelog">
@@ -20,34 +21,79 @@
             
             <br><hr><br>
 
-            <h3>PagePal</h3>
+            <h3>bentobox</h3>
             <br>
-            <p>CBZ (Comic Book Zip) reader written in Go</p>
+            <p>bentobox is a 64-bit SMP-enabled operating system targeting x86_64 and RISC-V</p>
             <br>
-            <h4>Features</h4>
+            <h4>Features on x86-64</h4>
             <ul class="changelog_list">
-                <li class="changelog_list">• Can read CBZ files</li>
-                <li class="changelog_list">• Might segfault if you change pages too quick</li>
+                <li class="changelog_list">• Multiboot 2 boot & module support</li>
+                <li class="changelog_list">• 4-level paging</li>
+                <li class="changelog_list">• VGA text mode and serial driver</li>
+                <li class="changelog_list">• Framebuffer console</li>
+                <li class="changelog_list">• PS/2 keyboard driver</li>
+                <li class="changelog_list">• ACPI table parsing (MADT & FADT)</li>
+                <li class="changelog_list">• LAPIC & IOAPIC support</li>
+                <li class="changelog_list">• HPET timer support</li>
+                <li class="changelog_list">• PCI driver</li>
+                <li class="changelog_list">• SMP-aware scheduler</li>
+                <li class="changelog_list">• Unix-style VFS</li>
+                <li class="changelog_list">• Elf64 loading</li>
+                <li class="changelog_list">• ATA and AHCI driver</li>
+                <li class="changelog_list">• ext2 support with caching</li>
+                <li class="changelog_list">• Userspace processes</li>
+                <li class="changelog_list">• SSE support</li>
+                <li class="changelog_list">• mlibc port</li>
+            </ul>
+            <br>
+            <h4>Features on RISC-V</h4>
+            <ul class="changelog_list">
+                <li class="changelog_list">• Virtio UART driver</li>
             </ul>
 
             <br><hr><br>
-            
-            <h3>barrelOS</h3>
+
+            <h3>hashi</h3>
             <br>
-            <p>x86 operating system</p>
+            <p>hashi (箸) is a small multiboot-compatible x86 bootloader</p>
             <br>
             <h4>Features</h4>
             <ul class="changelog_list">
-                <li class="changelog_list">• GDT and IDT tables</li>
-                <li class="changelog_list">• VGA, framebuffer and serial console drivers</li>
-                <li class="changelog_list">• PIC and Local APIC interrupt controllers</li>
-                <li class="changelog_list">• PIT and Local APIC timer</li>
-                <li class="changelog_list">• Paging</li>
-                <li class="changelog_list">• Bitmap allocator</li>
-                <li class="changelog_list">• Linked list heap</li>
-                <li class="changelog_list">• ACPI and MADT table parsing</li>
+                <li class="changelog_list">• El Torito boot support</li>
+                <li class="changelog_list">• Menu for selecting load option</li>
+                <li class="changelog_list">• Protected mode BIOS calls</li>
+                <li class="changelog_sublist">◦ Set font</li>
+                <li class="changelog_sublist">◦ Read disk</li>
+                <li class="changelog_sublist">◦ Return control to BIOS</li>
+                <li class="changelog_sublist">◦ Set video mode</li>
+                <li class="changelog_list">• ISO 9660 filesystem reading</li>
+                <li class="changelog_list">• Multiboot kernel loading</li>
+                <li class="changelog_sublist">◦ Elf32 parser</li>
+                <li class="changelog_list">• Config parsing</li>
             </ul>
-            
+
+            <br><hr><br>
+
+            <h3>Webwatcher</h3>
+            <br>
+            <p>A C# Chromium-based web browser</p>
+            <br>
+            <h4>Features</h4>
+            <ul class="changelog_list">
+                <li class="changelog_list">• Based on the Chromium framework since v1.2</li>
+                <li class="changelog_list">• Google account support since v.4</li>
+                <li class="changelog_list">• Uses .NET Framework 4.8 since v1.6</li>
+                <li class="changelog_list">• Settings page, introduced in v1.7</li>
+                <li class="changelog_list">• Supports Google search (v1.8), DuckDuckGo (v1.9) and Yahoo! (v1.9.2)</li>
+                <li class="changelog_list">• Tabs support since v1.9</li>
+            </ul>
+
+            <br><hr><br>
+
+            <h3>process-wallpaper (on Windows)</h3>
+            <br>
+            <p>process-wallpaper fork for Windows systems</p>
+
             <br><hr><br>
 
             <h3>upOS</h3>
@@ -61,17 +107,17 @@
                 <li class="changelog_list">• 32-bit (x86)</li>
                 <li class="changelog_list">• Fits entirely on a 1.44MB floppy disk</li>
             </ul>
-            
+
             <br><hr><br>
 
-            <h3>xwm</h3>
+            <h3>PagePal</h3>
             <br>
-            <p>X11 Window manager</p>
+            <p>CBZ (Comic Book Zip) reader written in Go</p>
             <br>
             <h4>Features</h4>
             <ul class="changelog_list">
-                <li class="changelog_list">• It's a window manager</li>
-                <li class="changelog_list">• Windows 9x look and feel</li>
+                <li class="changelog_list">• Can read CBZ files</li>
+                <li class="changelog_list">• Might segfault if you change pages too quick</li>
             </ul>
             
             <br><hr><br>
@@ -96,22 +142,6 @@
             <ul class="changelog_list">
                 <li class="changelog_list">• PrismAPI bug fixes</li>
                 <li class="changelog_list">• ACF (Advanced Cosmos Font) support</li>
-            </ul>
-
-            <br><hr><br>
-
-            <h3>Webwatcher</h3>
-            <br>
-            <p>A C# Chromium-based web browser</p>
-            <br>
-            <h4>Features</h4>
-            <ul class="changelog_list">
-                <li class="changelog_list">• Based on the Chromium framework since v1.2</li>
-                <li class="changelog_list">• Google account support since v.4</li>
-                <li class="changelog_list">• Uses .NET Framework 4.8 since v1.6</li>
-                <li class="changelog_list">• Settings page, introduced in v1.7</li>
-                <li class="changelog_list">• Supports Google search (v1.8), DuckDuckGo (v1.9) and Yahoo! (v1.9.2)</li>
-                <li class="changelog_list">• Tabs support since v1.9</li>
             </ul>
             
             <br><hr><br>
@@ -162,19 +192,6 @@
                 <li class="changelog_list">• Bitmap allocator</li>
                 <li class="changelog_list">• Linked list heap</li>
                 <li class="changelog_list">• PS/2 keyboard driver</li>
-            </ul>
-            
-            <br><hr><br>
-
-            <h3>tinyboot</h3>
-            <br>
-            <p>tinyboot is a very small bootloader for i8086/i8088 CPUs</p>
-            <br>
-            <h4>Features</h4>
-            <ul class="changelog_list">
-                <li class="changelog_list">• Loads data from the disk at a specific address into memory</li>
-                <li class="changelog_list">• Supports i8086/i8088 CPUs</li>
-                <li class="changelog_list">• Is very tiny indeed</li>
             </ul>
             
             <br><hr><br>
@@ -230,7 +247,7 @@
                 <li class="changelog_list">• Has a wiki link for the GoCode documentation</li>
                 <li class="changelog_list">• Has syntax highlighting</li>
             </ul>
-            <br>
+            <br><br>
         </div>
     </body>
 </html>
