@@ -4,34 +4,87 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>mobren.net</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.min.css">
     </head>
-    <body>
-        <h1>xrc2 at mobren.net</h1>
-        <p>I'm a self taught programmer, computer enthusiast and anime enjoyer.</p>
-        <h2>Projects worth mentioning:</h2>
-        <p>These are links to my GitHub repositories.</p>
-        <ul>
-            <li><a href="https://github.com/9xbt/bentobox">bentobox</a>: A 64-bit SMP-enabled operating system targeting x86_64 and aarch64.</li>
-            <li><a href="https://github.com/9xbt/Webwatcher">Webwatcher</a>: A lightweight C# Chromium-based web browser.</li>
-            <li><a href="https://github.com/9xbt/9xbt.github.io">mobren.net</a>: This website.</li>
-        </ul>
-        <h2>Other stuff I've tinkered with that's worth mentioning:</h3>
-        <ul>
-            <li><a href="https://github.com/9xbt/bentobox/tree/main/ports">doomgeneric</a>: DOOM, ported to bentobox.</li>
-            <li><a href="https://github.com/9xbt/mlibc/tree/v6.x">mlibc</a>: Portable C standard library, ported to bentobox.</li>
-            <li><a href="https://github.com/9xbt/bentobox/tree/main/ports">bash</a>: Ported to bentobox.</li>
-            <li><a href="https://github.com/9xbt/bentobox/tree/main/ports">neofetch</a>: Ported to bentobox.</li>
-            <li><a href="https://github.com/9xbt/dwm">dwm</a>: Dynamic window manager. Applied some patches and did some QOL fixes.</li>
-            <li><a href="https://github.com/9xbt/HOTDOG">HOTDOG</a>: Made it actually build.</li>
-            <li><a href="https://github.com/9xbt/process-wallpaper">process-wallpaper</a>: Ported to Windows.</li>
-            <li><a href="https://github.com/9xbt/mubsan">mubsan</a>: Added function type mismatch.</li>
-        </ul>
-        <h2>Credits</h2>
-        <ul>
-            <li><a href="https://watercss.kognise.dev/">Water.css</a> has saved me the headache of writing CSS for this website.</li>
-        </ul>
-        <h2>License</h2>
-        <p>This website is released into the public domain. See <a href="https://unlicense.org/">https://unlicense.org/</a> for further info.</p>
+    <body style="text-align: center;">
+        <header class="container">
+            <div style="display: flex; align-items: center; justify-content: center; gap: 2rem;">
+                <img src="profile.jpg" alt="Profile picture" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 2px solid var(--pico-primary);">
+                <hgroup style="text-align: left;">
+                    <h1>xrc2 at mobren.net</h1>
+                    <p>I'm a coder that codes stuff, you know how it goes.</p>
+                </hgroup>
+            </div>
+        </header>
+
+        <main class="container" style="max-width: 1000px; margin: 0 auto;">
+            <section>
+                <h2 style="font-style: italic;">Projects</h2>
+                
+                <div class="grid">
+                    <article>
+                        <h3>bentobox</h3>
+                        <p>bentobox is a 64-bit SMP-enabled operating system targeting x86_64 and aarch64.</p>
+                        <a href="https://github.com/9xbt/bentobox">See repo →</a>
+                    </article>
+
+                    <article>
+                        <h3>Webwatcher</h3>
+                        <p>A lightweight C# Chromium-based web browser.</p>
+                        <a href="https://github.com/9xbt/Webwatcher">See repo →</a>
+                    </article>
+                </div>
+
+                <div class="grid">
+                    <article>
+                        <h3>hashi</h3>
+                        <p>Small multiboot-compatible x86 BIOS bootloader.</p>
+                        <a href="https://github.com/9xbt/hashi">See repo →</a>
+                    </article>
+
+                    <article>
+                        <h3>mobren.net</h3>
+                        <p>My personal website and portfolio. You're here right now!</p>
+                        <a href="https://github.com/9xbt/9xbt.github.io">See repo →</a>
+                    </article>
+                </div>
+            </section>
+
+            <section>
+                <h2 style="font-style: italic;">Contributions &amp; forks</h2>
+                
+                <div class="grid">
+                    <article>
+                        <h3>mlibc</h3>
+                        <p>A fully featured C standard library designed with portability in mind.</p>
+                        <a href="https://github.com/9xbt/mlibc">See repo →</a>
+                    </article>
+
+                    <article>
+                        <h3>process-wallpaper</h3>
+                        <p>Dynamic wallpaper that displays a wordcloud of your most resource-intensive processes.</p>
+                        <a href="https://github.com/9xbt/process-wallpaper">See repo →</a>
+                    </article>
+                </div>
+
+                <div class="grid">
+                    <article>
+                        <h3>GCC &amp; binutils</h3>
+                        <p>GNU compiler collection toolchain fork for bentobox.</p>
+                        <a href="https://github.com/9xbt/gcc">See repo →</a>
+                    </article>
+
+                    <article>
+                        <h3>HOTDOG</h3>
+                        <p>HOTDOG window manager fork with some bug fixes to make it build.</p>
+                        <a href="https://github.com/9xbt/HOTDOG">See repo →</a>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer class="container" style="padding: 2rem 0; border-top: 1px solid var(--pico-muted-border-color);">
+            <p>© 2023 xrc2 • <a href="https://github.com/9xbt">GitHub</a> • <a href="mailto:flippy632@gmail.com">Email</a></p>
+        </footer>
     </body>
 </html>
